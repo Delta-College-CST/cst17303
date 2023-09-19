@@ -1,6 +1,6 @@
 # CST 173 - Delta College
 # This program prompts for a rectangle length & width.  It then
-# calculates and displays the rectangle area and perimeter
+# calculates and displays the rectangle area, perimeter, and diagonal.
 
 import math
 
@@ -19,4 +19,4 @@ print()
 print ("For rectangle dimensions",length,"meters X",width,"meters:")
 print ("  Perimeter:",perimeter,"meters")
 print ("  Area:",area,"square meters")
-print ("  Diagonal:",diagonal,"square meters")
+print ("  Diagonal:",diagonal,"meters")
