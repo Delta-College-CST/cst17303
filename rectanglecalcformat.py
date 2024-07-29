@@ -16,7 +16,9 @@ diagonal  = math.sqrt(length * length + width * width)
 
 # Output
 print()
-print ("For rectangle dimensions",length,"meters X",width,"meters:")
+print ("For rectangle dimensions")
+print ("  Length: %5.1f meters X %5.1f meters" % (length, width))
 print ("  Perimeter: %8.1f meters"        % (perimeter))
-print ("  Area:      %8.2f square meters" % (area))
+print ("  Area:      %8.3f square meters" % (area))
 print ("  Diagonal:  %8.3f meters" % (diagonal))
+
